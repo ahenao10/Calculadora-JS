@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Calculadora JS</h1>
+    <section class="calculator">
+        <div class="display">
+            <p id="sec-display"></p>
+            <p id="main-display"></p>
+        </div>
+        <section id="teclados">
+            <div id="teclado-numerico">
+                <button id="boton-1" value="1">1</button>
+                <button id="boton-2" value="2">2</button>
+                <button id="boton-3" value="3">3</button>
+                <button id="boton-4" value="4">4</button>
+                <button id="boton-5" value="5">5</button>
+                <button id="boton-6" value="6">6</button>
+                <button id="boton-7" value="7">7</button>
+                <button id="boton-8" value="8">8</button>
+                <button id="boton-9" value="9">9</button>
+                <div></div>
+                <button id="boton-0" value="0">0</button>
+            </div>
+            <section id="operator-keys" >
+                <div id="operaciones">
+                    <button>-</button>
+                    <button>x</button>
+                    <button>+</button>
+                    <button>÷</button>
+                </div>
+                <div id="clear-equal" >
+                    <button onclick="resetCalculator()" id="borrar">CE</button>
+                    <button id="igual">=</button>
+                </div>
+            </section>
+        </section>
+    </section>
+    <footer>
+        <h3>Copyright© Alejandro Henao</h3>
+    </footer>
+</body>
+</html>
